@@ -57,7 +57,7 @@ Este método sobe a aplicação e o banco de dados PostgreSQL de forma automatiz
 
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/seu-usuario/gestao-academica.git](https://github.com/seu-usuario/gestao-academica.git)
+    git clone https://github.com/AndreFerrarez/gestao_academia.git
     ```
 
 2.  Navegue até a raiz do projeto:
