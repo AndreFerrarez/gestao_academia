@@ -3,7 +3,7 @@ FROM maven:3.8.5-openjdk-17 AS build
 COPY src /home/app/src
 COPY pom.xml /home/app
 ENV MAVEN_OPTS="-Dfile.encoding=UTF-8"
-RUN mvn -f /home/app/pom.xml clean package
+RUN mvn -f /home/app/pom.xml clean package -Dproject.build.sourceEncoding=UTF-8
 
 # Estágio de execução
 FROM openjdk:17-jdk-slim
