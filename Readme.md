@@ -3,7 +3,8 @@
 [![Status](https://img.shields.io/badge/status-concluído-green)]()
 
 ## Aplicacao Deploy disponivel em:
-https://gestao-academia.onrender.com/
+Para verificar os alunos ja cadastrados...
+https://gestao-academia.onrender.com/api/alunos
 
 > Um serviço de API RESTful construído com Spring Boot para gerenciar alunos, disciplinas, matrículas e notas. O sistema foi projetado para ser operado por um professor, que precisa estar autenticado para realizar qualquer operação.
 
